@@ -16,3 +16,5 @@ Pipeline на GitHub Actions: lint → tests → build Docker image → push в 
 Copy-Item .env.example .env
 docker compose up --build -d
 curl.exe http://localhost:8000/health
+
+
